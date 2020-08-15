@@ -1,15 +1,8 @@
 /*
  * Base Dark Theme by Pepa Linha [http://webdream.cz]
+ * Modified by Miroslav Glamuzina [https://github.com/MiroslavGlamuzina/pepa-linha-dark-alt]
  * @version 1.0.5
  */
-
-select[name='lang']{
-    width: 100px;
-    position: fixed;
-    top: 0px;
-    right: 0px; 
-}
-
 @-webkit-keyframes fadeIn {
 	from {
 		opacity: 0.5;
@@ -111,10 +104,7 @@ select {
 	bottom: 0px;
 	display:contents;
 }
-/*
- * Dark Theme by Pepa Linha [http://webdream.cz]
- * @version 1.0.2
- */
+
  html, body {
 	height: 100%;
 }
@@ -1387,3 +1377,17 @@ form p label {
 		margin: 0;
 	}
 }
+
+fieldset , fieldset legend, fieldset legend a {
+    margin: 4px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, .01) !important;
+}
+select[name='lang']{
+    width: 100px;
+    position: fixed;
+    top: 0px;
+    right: 0px;    
+}
+
